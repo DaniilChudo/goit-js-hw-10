@@ -1,0 +1,56 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inpt-lb {
+    display: flex;
+    flex-direction: column
+}
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 360px;
+    height: 40px;
+    margin-top: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 360px;
+    height: 64px;
+    position: relative;
+    margin-top: 20px;
+    /* Adjusted margin between fieldset and input */
+    border: 1px solid rgba(128, 128, 128, 1);
+}
+
+fieldset legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+fieldset label {
+    margin-right: 20px;
+}
+
+button[type="submit"] {
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    color: white;
+    cursor: pointer;
+}
